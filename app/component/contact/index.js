@@ -20,7 +20,7 @@ function Contact() {
             <div className={cx('container')}>
                 <h1 className={cx('about')}>WHERE I WORK</h1>
                 <p className={cx('hobbit')}>
-                    <em>I'd love your feedback!</em>
+                    <em>Id love your feedback!</em>
                 </p>
 
                 <div className={cx('contact')}>
