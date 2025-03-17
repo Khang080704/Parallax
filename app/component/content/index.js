@@ -57,7 +57,7 @@ function Content() {
                 </div>
             </div>
 
-            <p className={cx('main-skill')}>I'm really good at</p>
+            <p className={cx('main-skill')}>I am really good at</p>
 
             {fortes.map((item, index) => {
                 return (
