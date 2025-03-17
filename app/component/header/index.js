@@ -70,7 +70,7 @@ function Header() {
             </div>
             <ul className={clsx(styles.tippyBox)} hidden={!menuBox}>
                 {dataForMobile.map((data, index) => {
-                    return <li className={clsx(styles.mobileMenuItem)}>{data}</li>;
+                    return <li key={index} className={clsx(styles.mobileMenuItem)}>{data}</li>;
                 })}
             </ul>
         </header>

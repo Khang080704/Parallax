@@ -18,7 +18,7 @@ function Content() {
                     <em>I love photography</em>
                 </p>
                 <p className={cx('desciption')}>
-                    We have created a fictional "personal" website/blog, and our fictional character is a hobby
+                    We have created a fictional personal website/blog, and our fictional character is a hobby
                     photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
