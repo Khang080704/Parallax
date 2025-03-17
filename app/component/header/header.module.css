@@ -1,0 +1,137 @@
+.wrapper {
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    color: #777;
+    align-items: center;
+    z-index: 4;
+    position: fixed;
+    padding: 0;
+}
+.animation {
+    animation: slideDown linear 0.3s forwards;
+}
+
+.menu {
+    display: flex;
+    padding:  0;
+    list-style: none;
+    margin: 0;
+}
+.item {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    list-style: none;
+    padding: 16px 16px;
+    line-height: 1.8;
+}
+.item:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    color: black;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.link {
+    margin-left: 3px;
+}
+
+.search {
+    padding: 22px 24px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.navBars {
+    padding: 16px 24px;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        background-color: transparent;    
+        color: #777;   
+    }
+    to {
+        top: 0;
+        background-color: white;
+        color: black;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);;
+    }
+}
+
+.BarsIcon {
+    display: none;
+}
+.barsIsActive {
+    background-color: black;
+}
+.barsIsActive > .BarsIcon{
+    color: white;
+}
+
+.tippyBox {
+    position: absolute;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    list-style: none;
+    top: 55px;
+    z-index: -1;
+}
+.mobileMenuItem {
+    position: relative;
+    font-size: 19px;
+    margin: 0;
+    padding: 10px 16px;
+    text-align: left;
+    background-color: white;
+    z-index: 2;
+    line-height: 1.5;
+}
+
+@media (max-width: 740px) {
+    .item {
+        font-size: 19px;
+        list-style: 100%;
+        padding: 8px 16px;
+    }
+    .BarsIcon {
+        display: block;
+    }
+    .SearchIcon {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .iconLink {
+        display: none;
+    }
+    .navBars {
+        padding: 15px 16px;
+        color: #777;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: block;
+    }
+    
+}   

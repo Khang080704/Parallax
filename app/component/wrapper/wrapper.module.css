@@ -1,0 +1,9 @@
+.wrapper {
+    margin: auto;
+    max-width: 80%;
+    padding: 64px 0;
+}
+.container {
+    padding: 64px 16px;
+    margin: auto;
+}

@@ -1,0 +1,140 @@
+.container {
+    padding: 64px 64px;
+    margin: auto;
+    width: 80%;
+}
+.about {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #777;
+    font-weight: 400;
+}
+.hobbit {
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.contact {
+    display: flex;
+    padding: 32px 0;
+}
+.contact__img {
+    width: 33.33333%;
+    padding: 0px 16px;
+}
+.contact__img-link {
+    width: 100%;
+    border-radius: 4px;
+}
+.contact__block {
+    width: 66.66666%;
+    padding: 0.0165px 16px;
+    margin: 16px 0;
+}
+.contact__block-media {
+    padding: 0 8px;
+}
+.contact__block-media-icon {
+    font-size: 28px;
+    margin-right: 18px;
+    color: #777;
+}
+.contact__block-media-icon:hover {
+    color: black;
+}
+.contact__blocl-media-item {
+    margin-bottom: 8px;
+}
+.contact__blocl-media-item-content {
+    line-height: 1.8;
+    color: #777;
+    font-size: 24px;
+}
+.contact__block-note {
+    margin: 18px 0;
+    color: #777;
+    line-height: 1.8;
+    font-size: 20px;
+    padding: 0 8px;
+}
+
+.contact__block-user-info {
+    display: flex;
+    margin-bottom: 15px;
+}
+.contact__block-user-info__name {
+    padding: 0 8px;
+    width: 50%;
+    height: 48px;
+}
+.contact__block-user-info__email {
+    padding: 0 8px;
+    width: 50%;
+    height: 48px;
+}
+.input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 100%;
+}
+.contact__block-user-info__message {
+    padding: 0 8px;
+    height: 48px;
+}
+
+.contact__block-submit {
+    float: right;
+    margin: 16px 8px;
+    padding: 8 16px;
+    border: none;
+    background-color: black;
+    
+}
+.contact__block-submit:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.contact__block-submit:hover > .contact__block-submit-icon {
+    color: black;
+}
+.contact__block-submit:hover >  .contact__block-submit-text {
+    color: black;
+}
+.contact__block-submit-icon, .contact__block-submit-text {
+    color: white;
+    font-size: 20px;
+    line-height: 1.8;
+}
+.contact__block-submit-icon {
+    margin-right: 4px;
+}
+
+
+@media (max-width: 740px) {
+    .container {
+        width: 100%;
+        padding: 64px 0;
+    }
+    .contact {
+        display: block;
+    }
+    .contact__img {
+        width: 100%;
+    }
+    .contact__block {
+        width: 100%;
+    }
+    .contact__block-user-info {
+        display: block;
+    }
+    .contact__block-user-info__name {
+        width: 100%;
+    }
+    .contact__block-user-info__email {
+        width: 100%;
+    }
+}

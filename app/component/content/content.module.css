@@ -1,0 +1,97 @@
+.wrapper {
+    margin: auto;
+    width: 80%;
+    padding: 64px 0;
+}
+.container {
+    padding: 64px 16px;
+    margin: auto;
+}
+
+.about {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    color: #777;
+    font-weight: 400;
+}
+.hobbit {
+    color: #777;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.desciption {
+    margin: 15px 0;
+    color: #777;
+    line-height: 1.8;
+}
+.intro-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 50px;
+}
+.intro-image {
+    text-align: center;
+    padding: 12px 40px;
+    color: #777;
+}
+.intro-image-tile {
+    margin: 15px 0;
+    margin-bottom: 50px;
+}
+.icon {
+    margin-right: 15px;
+}
+.image {
+    opacity: 0.6;
+    border-radius: 4px;
+    vertical-align: middle;
+    min-width: 100%;
+}
+.image:hover {
+    opacity: 0.8;
+}
+.present {
+    color: #777;
+    line-height: 1.8;
+}
+
+.main-skill {
+    padding: 16px 0;
+    margin: 18px 0;
+    text-align: center;
+    color: #777;
+    line-height: 1.8;
+    font-size: 20;
+}
+
+@media (max-width: 740px) {
+    .wrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .present {
+        display: none;
+    }
+    .intro-image {
+        max-width: 100%;
+        
+    }
+    .container {
+        padding: 64px 0;
+    }
+    .intro-container {
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .image {
+        width: 100%;
+        height: 100%;
+    }
+}
